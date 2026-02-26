@@ -1,0 +1,34 @@
+{
+	"name": "themehybrid/hybrid-maintenance-mode",
+	"description": "Maintenance Mode helper package for Hybrid Core.",
+	"license": "GPL-2.0-or-later",
+	"keywords": [
+		"wordpress"
+	],
+	"authors": [
+		{
+			"name": "Theme Hybrid",
+			"email": "themehybrid@gmail.com",
+			"homepage": "https://themehybrid.com",
+			"role": "Developer"
+		}
+	],
+	"homepage": "https://github.com/themehybrid/hybrid-maintenance-mode",
+	"support": {
+		"issues": "https://github.com/themehybrid/hybrid-maintenance-mode/issues",
+		"forum": "https://themehybrid.com/board/forums/hybrid-core"
+	},
+	"require": {
+		"php": ">=8.2"
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"autoload": {
+		"psr-4": {
+			"Hybrid\\MaintenanceMode\\": "src/"
+		}
+	},
+	"config": {
+		"sort-packages": true
+	}
+}
